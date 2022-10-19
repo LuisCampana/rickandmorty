@@ -2,18 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  background-image: url("./img/3dd4a5582520df2a53b24dc538a8fec9.jpg");
+  background-image: url("./img/10836.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
   position: relative;
 }
+@font-face {
+  font-family: rick;
+  src: url(../../tipografiaRick/get_schwifty.ttf);
+}
 .title {
+  font-family: rick;
   margin: 0;
   font-size: 40px;
   text-shadow: 0 0 5px red, 0 0 15px red, 0 0 30px red, 0 0 50px red;
 }
 strong {
   color: red;
+}
+.white {
+  color: white;
+}
+label {
+  font-size: 25px;
 }
